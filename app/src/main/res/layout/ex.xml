@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/rcntlgs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_below="@id/rcntlgs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="Location:"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/tv2"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv2"
+        android:layout_alignBottom="@id/tv2"
+        android:text=""
+        android:textSize="10dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tv3"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="    Area:"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/tv4"
+        android:layout_below="@id/tv2"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv4"
+        android:layout_alignBottom="@id/tv4"
+        android:text=""
+        android:textSize="10dp"
+        android:layout_below="@id/tv3"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tv5"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="Selection:"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@id/tv4"
+        android:id="@+id/tv6"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv6"
+        android:layout_alignBottom="@id/tv6"
+        android:text=""
+        android:textSize="10dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tv7"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="Kilo Meter:"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/tv8"
+        android:layout_below="@id/tv6"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv8"
+        android:layout_alignBottom="@id/tv8"
+        android:text=""
+        android:textSize="10dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tv9"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="km"
+        android:layout_toRightOf="@id/tv9"
+        android:layout_alignBottom="@id/tv9"
+
+        />
+</RelativeLayout>
